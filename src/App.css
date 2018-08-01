@@ -8,3 +8,17 @@
   font-size: 70pt;
   font-family: sans-serif;
 }
+
+.controles{
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px dotted red;
+  justify-content: space-evenly;
+  align-items: center;
+}
