@@ -19,7 +19,7 @@ class Pontuacao extends Component {
         return (
             <div className="pontuacao">
                 <h1>{this.props.nomeDoTime || this.time}</h1>
-                <h2>{this.state.gols}</h2>
+                <h2>{this.props.gols}</h2>
                 <div className="gol" onClick={this.atualizar}>
                     GOL!
                 </div>
