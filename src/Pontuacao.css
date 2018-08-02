@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 40px;
+    margin: 0 80px;
     padding: 40px;
-    border: 5px dotted red;
+    border: 5px dotted blue;
 }
 
 .pontuacao h1{

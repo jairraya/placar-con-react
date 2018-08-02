@@ -4,16 +4,16 @@ import './Pontuacao.css';
 class Pontuacao extends Component {
     constructor(props){
         super(props);
-        this.time = "Time da casa";
+        this.time = "Anfitrião";
     }
 
     atualizar = () => {
-            this.prop.cliqueBotao(this.props.numero);
+            this.props.cliqueBotao(this.props.numero);
     }
 
     render() {
         if(this.props.visitante === "true"){
-            this.time = "Time visitante";
+            this.time = "Visitante";
         }
 
         return (
@@ -21,7 +21,7 @@ class Pontuacao extends Component {
                 <h1>{this.props.nomeDoTime || this.time}</h1>
                 <h2>{this.props.gols}</h2>
                 <div className="gol" onClick={this.atualizar}>
-                    GOL!
+                    <img src="/play.jpeg"/>
                 </div>
             </div>
         );
